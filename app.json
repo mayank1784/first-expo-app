@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "MJ-job",
-    "scheme": "MJ-job",
-    "slug": "MJ_job",
+    "name": "MJ-Aora",
+    "scheme": "MJ-Aora",
+    "slug": "MJ_Aora",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,13 +16,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.mj.aora"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mj.aora"
     },
     "web": {
       "favicon": "./assets/favicon.png",
